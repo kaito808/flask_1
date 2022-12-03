@@ -1,0 +1,18 @@
+
+python3 -m venv venv
+$ source venv/bin/activate
+
+(venv)$ pip3 install flask
+
+
+FLASK_ENV=development flask run
+
+
+
+
+pip3 install flask-debugtoolbar
+
+from flask_debugtoolbar import DebugToolbarExtension
+
+
+export FLASK_ENV=development

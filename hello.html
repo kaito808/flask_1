@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello</title>
+</head>
+<body>
+    <h1>Hi There!</h1>
+    <form action="/result" autocomplete="on">
+     <p>Converting from  <input required name="convert_from" placeholder="USD" pattern="[A-Za-z]{3}" title="Not a valid code:"></p>
+     <p>Converting to  <input required name="convert_to" placeholder="JPN" pattern="[A-Za-z]{3}" title="Not a valid code:"></p>
+     <p>Amount:  <input required name="amount" placeholder="100"></p>
+
+     <button>Convert!</button>
+    </form>
+</body>
+</html>
